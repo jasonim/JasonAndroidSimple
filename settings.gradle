@@ -1,0 +1,1 @@
+include ':mvppresentation', ':domain', ':data', ':library'

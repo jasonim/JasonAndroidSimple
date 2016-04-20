@@ -13,6 +13,7 @@
             <option value="$PROJECT_DIR$/domain" />
             <option value="$PROJECT_DIR$/library" />
             <option value="$PROJECT_DIR$/mvppresentation" />
+            <option value="$PROJECT_DIR$/rxandroidsample" />
           </set>
         </option>
         <option name="myModules">
@@ -22,6 +23,7 @@
             <option value="$PROJECT_DIR$/domain" />
             <option value="$PROJECT_DIR$/library" />
             <option value="$PROJECT_DIR$/mvppresentation" />
+            <option value="$PROJECT_DIR$/rxandroidsample" />
           </set>
         </option>
       </GradleProjectSettings>

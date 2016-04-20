@@ -1,1 +1,1 @@
-include ':mvppresentation', ':domain', ':data', ':library'
+include ':mvppresentation', ':domain', ':data', ':library', ':rxandroidsample'

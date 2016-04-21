@@ -59,6 +59,10 @@ dependencies {
     androidTestCompile presentationTestDependencies.espresso
     androidTestCompile presentationTestDependencies.testingSupportLib
 
+    def domainTestDependencies = rootProject.ext.domainTestDependencies
+    testCompile domainTestDependencies.junit
+    testCompile domainTestDependencies.mockito
+
     //Development
     compile developmentDependencies.leakCanary
 }

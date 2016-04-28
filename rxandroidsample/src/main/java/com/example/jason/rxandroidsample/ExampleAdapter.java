@@ -3,6 +3,7 @@ package com.example.jason.rxandroidsample;
 import android.content.Context;
 import android.content.Intent;
 import android.support.v7.widget.RecyclerView;
+import android.util.Log;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
@@ -33,6 +34,7 @@ public class ExampleAdapter extends RecyclerView.Adapter<ExampleAdapter.ViewHold
 
     @Override
     public void onBindViewHolder(final ViewHolder holder, final int position) {
+        Log.d("hujd", "onBind pos " + position);
         holder.mNameDisplay.setText(mExamples.get(position).mExampleName);
         holder.itemView.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -56,5 +58,14 @@ public class ExampleAdapter extends RecyclerView.Adapter<ExampleAdapter.ViewHold
             super(itemView);
             mNameDisplay = (TextView) itemView.findViewById(R.id.name_display);
         }
+    }
+
+    @Override
+    public int getItemViewType(int position) {
+        Log.e("hujd", "getItemViewType() Called");
+        if (mExamples.size() == 0) {
+            return 0;
+        }
+        return super.getItemViewType(position);
     }
 }

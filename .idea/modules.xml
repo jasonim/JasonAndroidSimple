@@ -3,6 +3,7 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/JasonAndroidSimple.iml" filepath="$PROJECT_DIR$/JasonAndroidSimple.iml" />
+      <module fileurl="file://$PROJECT_DIR$/daggersample/daggersample.iml" filepath="$PROJECT_DIR$/daggersample/daggersample.iml" />
       <module fileurl="file://$PROJECT_DIR$/data/data.iml" filepath="$PROJECT_DIR$/data/data.iml" />
       <module fileurl="file://$PROJECT_DIR$/domain/domain.iml" filepath="$PROJECT_DIR$/domain/domain.iml" />
       <module fileurl="file://$PROJECT_DIR$/library/library.iml" filepath="$PROJECT_DIR$/library/library.iml" />

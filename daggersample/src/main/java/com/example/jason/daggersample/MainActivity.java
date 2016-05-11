@@ -20,8 +20,8 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
-        mActivityComponent = DaggerActivityComponent.builder().activityModule(new ActivityModule()).build();
-        ContainerComponent containerComponent = DaggerContainerComponent.builder().activityComponent(mActivityComponent).containerModule(new ContainerModule()).build();
+        mActivityComponent = ActivityComponent.Initializer.init();
+        ContainerComponent containerComponent = ContainerComponent.Initializer.init(mActivityComponent);
 
         containerComponent.inject(this);
         Log.d(TAG, userInfo.name + userInfo.age);

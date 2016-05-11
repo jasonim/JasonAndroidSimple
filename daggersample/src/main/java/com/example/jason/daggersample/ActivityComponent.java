@@ -9,4 +9,13 @@ import dagger.Component;
 public interface ActivityComponent {
 //    void inject(MainActivity activity);
     UserInfo userInfo();
+
+    final class Initializer {
+        private Initializer() {
+        } // No instances.
+
+        public static ActivityComponent init() {
+            return DaggerActivityComponent.builder().activityModule(new ActivityModule()).build();
+        }
+    }
 }

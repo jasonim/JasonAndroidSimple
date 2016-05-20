@@ -39,7 +39,8 @@ dependencies {
 
     testCompile domainTestDependencies.junit
     testCompile domainTestDependencies.mockito
-    androidTestCompile 'com.android.support.test:runner:0.5'
+    androidTestCompile 'com.android.support:support-annotations:23.3.0'
+    androidTestCompile 'com.android.support.test:rules:0.5'
     compile 'com.android.support:appcompat-v7:23.3.0'
     compile 'com.android.support:design:23.3.0'
 

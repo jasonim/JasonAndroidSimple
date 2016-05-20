@@ -26,9 +26,9 @@ public class MainActivityTest {
     public ActivityTestRule<MainActivity> mActivityRule = new ActivityTestRule<>(
             MainActivity.class);
     @Test
-    public  void verifyWithRightName(){
+    public  void verifyWithWrongName(){
         onView(withId(R.id.edit_name)).perform(typeText("android"), closeSoftKeyboard());
-        onView(withId(R.id.edit_age)).perform(typeText("wrong"),closeSoftKeyboard());
+        onView(withId(R.id.edit_age)).perform(typeText("20"),closeSoftKeyboard());
         onView(withId(R.id.btn)).perform(click());
 
         onView(withId(R.id.result)).check(matches(withText("ok")));

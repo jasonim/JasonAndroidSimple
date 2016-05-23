@@ -9,6 +9,7 @@ import android.view.View;
 import android.view.ViewGroup;
 import android.widget.TextView;
 
+import java.util.ArrayList;
 import java.util.List;
 
 /**
@@ -26,6 +27,7 @@ public class ExampleAdapter extends RecyclerView.Adapter<ExampleAdapter.ViewHold
 
     @Override
     public ViewHolder onCreateViewHolder(ViewGroup parent, int viewType) {
+        Log.d("hujd", "oncreate");
         View v = LayoutInflater
                 .from(mContext)
                 .inflate(R.layout.example_list_item, parent, false);
@@ -47,6 +49,7 @@ public class ExampleAdapter extends RecyclerView.Adapter<ExampleAdapter.ViewHold
 
     @Override
     public int getItemCount() {
+        Log.d("hujd", "size: " + mExamples.size());
         return mExamples.size();
     }
 
@@ -60,12 +63,12 @@ public class ExampleAdapter extends RecyclerView.Adapter<ExampleAdapter.ViewHold
         }
     }
 
-    @Override
-    public int getItemViewType(int position) {
-        Log.e("hujd", "getItemViewType() Called");
-        if (mExamples.size() == 0) {
-            return 0;
-        }
-        return super.getItemViewType(position);
-    }
+//    @Override
+//    public int getItemViewType(int position) {
+//        Log.e("hujd", "getItemViewType() Called");
+//        if (mExamples.size() == 0) {
+//            return 0;
+//        }
+//        return super.getItemViewType(position);
+//    }
 }

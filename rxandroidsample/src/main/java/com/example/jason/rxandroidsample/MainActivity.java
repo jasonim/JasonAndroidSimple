@@ -35,12 +35,12 @@ public class MainActivity extends AppCompatActivity {
     private void setupExampleList() {
         RecyclerView exampleList = (RecyclerView) findViewById(R.id.example_list);
         assert exampleList != null;
-        exampleList.setHasFixedSize(true);
+//        exampleList.setHasFixedSize(true);
 //        下面方法仅仅被调用bindViewHolder调用一次
         exampleList.setLayoutManager(new LinearLayoutManager(this));
 //        exampleList.setLayoutManager(new LinearLayoutManager(this, LinearLayoutManager.VERTICAL, false));
-        exampleList.setItemAnimator(new DefaultItemAnimator());
         exampleList.setAdapter(new ExampleAdapter(this, getExamples()));
+        exampleList.setItemAnimator(new DefaultItemAnimator());
     }
 
     private static List<ExampleActivityAndName> getExamples() {
@@ -51,18 +51,18 @@ public class MainActivity extends AppCompatActivity {
         exampleActivityAndNames.add(new ExampleActivityAndName(
                 Example2Activity.class,
                 "Example 2: Favorite Tv Shows"));
-//        exampleActivityAndNames.add(new ExampleActivityAndName(
-//                Example3Activity.class,
-//                "Example 3: Improved Favorite Tv Shows"));
-//        exampleActivityAndNames.add(new ExampleActivityAndName(
-//                Example4Activity.class,
-//                "Example 4: Button Counter"));
-//        exampleActivityAndNames.add(new ExampleActivityAndName(
-//                Example5Activity.class,
-//                "Example 5: Value Display"));
-//        exampleActivityAndNames.add(new ExampleActivityAndName(
-//                Example6Activity.class,
-//                "Example 6: City Search"));
+        exampleActivityAndNames.add(new ExampleActivityAndName(
+                Example3Activity.class,
+                "Example 3: Improved Favorite Tv Shows"));
+        exampleActivityAndNames.add(new ExampleActivityAndName(
+                Example4Activity.class,
+                "Example 4: Button Counter"));
+        exampleActivityAndNames.add(new ExampleActivityAndName(
+                Example5Activity.class,
+                "Example 5: Value Display"));
+        exampleActivityAndNames.add(new ExampleActivityAndName(
+                Example6Activity.class,
+                "Example 6: City Search"));
         return exampleActivityAndNames;
     }
 

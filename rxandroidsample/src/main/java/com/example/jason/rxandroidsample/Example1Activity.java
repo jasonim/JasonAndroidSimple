@@ -54,7 +54,7 @@ public class Example1Activity extends Activity {
     private void configureLayout() {
         setContentView(R.layout.activity_example_1);
         mColorListView = (RecyclerView) findViewById(R.id.color_list);
-        mColorListView.setLayoutManager(new LinearLayoutManager(this, LinearLayoutManager.VERTICAL, false));
+        mColorListView.setLayoutManager(new LinearLayoutManager(this));
         mSimpleStringAdapter = new SimpleStringAdapter(this);
         mColorListView.setAdapter(mSimpleStringAdapter);
     }

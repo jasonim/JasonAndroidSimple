@@ -9,6 +9,7 @@
       <module fileurl="file://$PROJECT_DIR$/espressosample/espressosample.iml" filepath="$PROJECT_DIR$/espressosample/espressosample.iml" />
       <module fileurl="file://$PROJECT_DIR$/library/library.iml" filepath="$PROJECT_DIR$/library/library.iml" />
       <module fileurl="file://$PROJECT_DIR$/mvppresentation/mvppresentation.iml" filepath="$PROJECT_DIR$/mvppresentation/mvppresentation.iml" />
+      <module fileurl="file://$PROJECT_DIR$/robolectricsample/robolectricsample.iml" filepath="$PROJECT_DIR$/robolectricsample/robolectricsample.iml" />
       <module fileurl="file://$PROJECT_DIR$/rxandroidsample/rxandroidsample.iml" filepath="$PROJECT_DIR$/rxandroidsample/rxandroidsample.iml" />
     </modules>
   </component>

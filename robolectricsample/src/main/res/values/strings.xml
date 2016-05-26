@@ -1,0 +1,23 @@
+<resources>
+    <string name="app_name">Robolectric Sample</string>
+    <string name="sample_demo">官方demo</string>
+    <string name="string_login_enter">进入登录页</string>
+    <string name="string_inverse">点击按钮反选</string>
+    <string name="string_checkbox">点击按钮反选</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="string_delayedtask">DelayedTask测试</string>
+    <string name="network_callback">网络请求回调</string>
+
+    <!-- Strings related to login -->
+    <string name="prompt_email">Email</string>
+    <string name="prompt_password">Password</string>
+    <string name="action_sign_in">Sign in or register</string>
+    <string name="action_sign_in_short">Sign in</string>
+    <string name="error_incorrect_login">Password/Email is incorrect</string>
+    <string name="error_field_required">This field is required</string>
+    <string name="permission_rationale">"Contacts permissions are needed for providing email
+        completions."
+    </string>
+</resources>

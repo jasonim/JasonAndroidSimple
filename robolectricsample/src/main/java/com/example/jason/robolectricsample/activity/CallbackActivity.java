@@ -1,6 +1,6 @@
 package com.example.jason.robolectricsample.activity;
 
-import android.support.v7.app.AppCompatActivity;
+import android.app.Activity;
 import android.os.Bundle;
 import android.util.Log;
 import android.view.View;
@@ -22,7 +22,7 @@ import retrofit2.Call;
 import retrofit2.Callback;
 import retrofit2.Response;
 
-public class CallbackActivity extends AppCompatActivity {
+public class CallbackActivity extends Activity {
 
     private ListView listView;
     private List<String> datas;
@@ -60,7 +60,7 @@ public class CallbackActivity extends AppCompatActivity {
                     datas.add(user.login);
                 }
 
-                Log.d("hujd", new Gson().toJson(response.body()));
+//                Log.d("hujd", new Gson().toJson(response.body()));
                 ArrayAdapter<String> adapter = new ArrayAdapter<>(CallbackActivity.this,
                         android.R.layout.simple_list_item_1, datas);
                 listView.setAdapter(adapter);

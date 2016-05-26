@@ -38,11 +38,15 @@ public class GithubServiceTest {
     }
     @Test
     public void testPublicRepositories() throws IOException{
-        Call<List<Repository>> call = githubService.publicRepositories("jasonim");
+        Call<List<Repository>> call = githubService.publicRepositories("geniusmart");
         Response<List<Repository>> execute = call.execute();
         List<Repository> body = execute.body();
         Log.i("hujd", new Gson().toJson(body));
         assertTrue(body.size() > 0);
         assertNotNull(body.get(0).name);
+
+        User user = githubService.user("jasonim").execute().body();
+        Log.i("hujd", new Gson().toJson(user));
+        assertNotNull(user);
     }
 }

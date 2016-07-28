@@ -45,7 +45,6 @@ public class LoginActivityTest {
         emailView.setText("hk081508@gmail.com");
         passwordView.setText("123");
         button.performClick();
-
         ShadowApplication shadowApplication = ShadowApplication.getInstance();
         assertThat("Next activity has started", shadowApplication.getNextStartedActivity(), is(notNullValue()));
     }

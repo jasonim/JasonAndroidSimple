@@ -13,8 +13,12 @@
 |[retrofit实践](http://hujiandong.com/2016/07/04/android_retrofit_advanced/)| <https://github.com/jasonim/Retrofit-Utils->|
 
 [个人blog](http://hujiandong.com)
+
 [简书主页](http://www.jianshu.com/users/e927ce2600f8/latest_articles)
-![微信公众号](http://7xnilf.com1.z0.glb.clouddn.com/weixin.jpg)
+
+微信公众号：
+![微信公众号](.image/weixin.jpg)
+
 
 # License
 

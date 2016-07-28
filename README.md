@@ -17,7 +17,7 @@
 [简书主页](http://www.jianshu.com/users/e927ce2600f8/latest_articles)
 
 微信公众号：
-![微信公众号](.image/weixin.jpg)
+![微信公众号](./image/weixin.jpg)
 
 
 # License

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="WatchBoard">
+        <!--表盘的边距-->
+        <attr name="wb_padding" format="dimension"/>
+        <!--表盘文字大小-->
+        <attr name="wb_text_size" format="dimension"/>
+        <!--时针的宽带-->
+        <attr name="wb_hour_pointer_width" format="dimension"/>
+        <!--分针的宽带-->
+        <attr name="wb_minute_pointer_width" format="dimension"/>
+        <!--秒针的宽带-->
+        <attr name="wb_second_pointer_width" format="dimension"/>
+        <attr name="wb_pointer_corner_radius" format="dimension"/>
+        <attr name="wb_pointer_end_length" format="dimension"/>
+        <attr name="wb_scale_long_color" format="color"/>
+        <attr name="wb_scale_short_color" format="color"/>
+        <attr name="wb_hour_pointer_color" format="color"/>
+        <attr name="wb_minute_pointer_color" format="color"/>
+        <attr name="wb_second_pointer_color" format="color"/>
+
+    </declare-styleable>
+</resources>

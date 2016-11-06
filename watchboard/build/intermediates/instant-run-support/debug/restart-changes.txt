@@ -1,0 +1,1 @@
+CHANGED,/home/hujd/project/xunyou/tools/HardwareDemo/watchboard/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/jason/watchboard/view/WatchBoard.class

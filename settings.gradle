@@ -1,1 +1,1 @@
-include ':mvppresentation', ':domain', ':data', ':library', ':rxandroidsample', ':daggersample', ':espressosample', ':robolectricsample'
+include ':mvppresentation', ':domain', ':data', ':library', ':rxandroidsample', ':daggersample', ':espressosample', ':robolectricsample', ':mocksample'
